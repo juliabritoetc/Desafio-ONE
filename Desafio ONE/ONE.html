@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Codificador e decodificador</title>
+	<link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+	<main class="main container"></main>
+		<header class="cabecalho">
+			<img src="imagens/cat-6005847_1280.png" alt="logo do site">
+			<h1>Digite seu texto aqui</h1>
+		</header>
+
+	<div class="container-input">
+		<div class="input">
+			<textarea id="input-texto" placeholder="Digite seu texto aqui:"></textarea>
+			<p>ATENÇÃO! Apenas letras minúsculas, sem acentos ou caracteres especiais.</p>
+		</div>
+
+	<div id="output">
+		<img src="imagens/cat-6005847_1280.png" alt="logo do site">
+		<h2>Sua mensagem está aqui:</h2>
+		<span>Digite o texto para criptografar ou descriptografar.</span>
+	</div>
+	</div>
+
+	<div class="buttons">
+		<div class="container-btn">
+			<button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+			<button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+		</div>
+	</div>
+	
+	<script src="interação/script.js"></script>
+</body>
+</html>
